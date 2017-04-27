@@ -10,7 +10,7 @@ import config from './config.json';
 let app = express();
 app.server = http.createServer(app);
 
-// 3rd party middleware
+// 3rd party middleware-nice
 app.use(cors({
 	exposedHeaders: config.corsHeaders
 }));
